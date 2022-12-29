@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import HeroSection from './HeroSection';
+import FooterSection from './FooterSection';
+import ServicesSection from './ServicesSection';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +25,3 @@ function App() {
   );
 }
 
-export default App;
