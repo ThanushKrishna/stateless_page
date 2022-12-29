@@ -14,7 +14,7 @@ nav {
 }
 
 nav > h3 {
-  margin: 0 15px;
+  margin: 5px 15px;
   font-size: 20px;
 
 }
@@ -73,7 +73,7 @@ margin-bottom: 200px;
 .footer-section {
   height: 350px;
   background: #133588;
-  padding: 40px 0px;
+  padding: 10px 0px;
   box-sizing: border-box;
 }
 
@@ -108,4 +108,28 @@ input[type="submit"] {
   width: 9%;
   height: 4%;
   padding: 7px 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .services-section {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .service-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .service-block{
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"] {   
+    width: 50%;
+  }
 }
