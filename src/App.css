@@ -38,7 +38,7 @@ nav > h3 {
 }
 
 .services-section {
-height: 500px;
+height: 250px;
 padding-top: 10px;
 box-sizing: border-box;
 margin-bottom: 200px;
@@ -54,19 +54,58 @@ margin-bottom: 200px;
   justify-content: space-around;
 }
 
-.serivce-block {
+.service-block {
   width: 25%;
   margin: 0 10px;
 
 }
 
-.serivce-block img {
-  width: 100%;
+.service-block img {
+  width: 70%;
 }
 
-.serivce-block p {
-  text-align: left;
-  padding-top: 2px;
+.service-block p {
+  padding-top: 4px;
   padding-bottom: 2px;
   margin: 0px;
+}
+
+.footer-section {
+  height: 350px;
+  background: #133588;
+  padding: 40px 0px;
+  box-sizing: border-box;
+}
+
+.footer-section > h2 {
+  font-size: 40px;
+  padding-top: 100px;
+  color: white;
+  width: 50%;
+  margin: auto;  
+}
+
+input[type="text"] {   
+  background: none;
+  border:none;
+  width: 15%;
+  margin: 10px auto;
+  border-bottom: 1px solid white;
+  display: block;
+  padding-bottom: 10px;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, .5);
+} 
+
+input[type="submit"] {
+  color: #806c6c;
+  border-radius: 0;
+  border: none;
+  width: 9%;
+  height: 4%;
+  padding: 7px 0;
 }
