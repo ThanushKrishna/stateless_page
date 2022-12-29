@@ -28,13 +28,45 @@ nav > h3 {
   position: relative;
 }
 
-.hero-section h2{  
+.hero-section h2 {  
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   top: 60%;
   color: white;
   font-size: 30px;
+}
+
+.services-section {
+height: 500px;
+padding-top: 10px;
+box-sizing: border-box;
+margin-bottom: 200px;
+}
+
+.services-section h2 {
+  color: #806c6c;
+}
+
+.service-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.serivce-block {
+  width: 25%;
+  margin: 0 10px;
 
 }
 
+.serivce-block img {
+  width: 100%;
+}
+
+.serivce-block p {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+}
